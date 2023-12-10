@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+.BMW{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    border-radius: 100%;
+    margin: 100px;
+    border: 8px gray solid;
+    position: relative;
+}
+.inner{
+    height: 250px;
+    width: 250px;
+    background-color:white;
+    border-radius: 100%;
+    top: 65px;
+    left: 65px;
+    border: 4px gray solid;
+    position: absolute;
+    background-color: black;
+}
+.shape1{
+    position: absolute;
+    border-radius: 100% 0 0;
+    height: 115px;
+    width: 115px;
+    background-color: white;
+    top: 4px;
+    left: 4px;
+    border:gray 2px solid;
+    background-color: rgb(68, 151, 240);
+
+}
+.shape2{
+    position: absolute;
+    height: 115px;
+    width: 115px;
+    background-color: white;
+    border-radius:  0 100% 0 0;
+    top: 4px;
+    right: 4px;
+    border:gray 2px solid;
+    
+}
+.shape3{
+    position: absolute;
+    height: 115px;
+    width: 115px;
+    background-color: white;
+    border-radius: 0 0 0 100%;
+    bottom: 4px;
+    left: 4px;
+    border:gray 2px solid;
+}
+.shape4{
+    position: absolute;
+    height: 115px;
+    width: 115px;
+    background-color: white;
+    border-radius: 0 0 100%;
+    bottom: 4px;
+    right: 4px;
+    border:gray 2px solid;
+    background-color: rgb(68, 151, 240);
+}
+.B,
+.M,
+.W{
+position: absolute;
+font-size:75px ;
+color:white;
+font-weight: bold;
+font-family: 'Poppins', sans-serif;
+}
+.B{
+top: 20px;
+left: 55px;
+transform: rotate(-45deg);
+}
+.M{
+    top: -20px;
+    left: 157px;
+    
+}
+.W{
+        top: 20px;
+        left: 259px;
+        transform: rotate(45deg);
+}
+
